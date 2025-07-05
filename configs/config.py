@@ -64,6 +64,9 @@ class Config:
         self.preprocess_per = 3.7
         self.x_pad, self.x_query, self.x_center, self.x_max = self.device_config()
 
+        #set the no of cpus
+        self.hparams.np7 = int(self.n_cpu * self.hparams.np7)
+
     @staticmethod
     def load_config_json() -> dict:
         d = {}
