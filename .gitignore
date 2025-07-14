@@ -27,4 +27,5 @@ rmvpe.pt
 ffmpeg.*
 ffprobe.*
 cc_rvc
+cc_uvr
 .vscode/
