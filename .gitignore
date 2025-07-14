@@ -26,3 +26,5 @@ rmvpe.pt
 /assets/weights/*
 ffmpeg.*
 ffprobe.*
+cc_rvc
+.vscode/

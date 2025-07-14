@@ -556,7 +556,7 @@ def click_train(
         config_path = "v1/%s.json" % sr2
     else:
         config_path = "v2/%s.json" % sr2
-    config_save_path = os.path.join(exp_dir, "config.json")
+    config_save_path = os.path.join(exp_dir, "config.json") # ./logs/exp_dir1/config.json
     if not pathlib.Path(config_save_path).exists():
         with open(config_save_path, "w", encoding="utf-8") as f:
             json.dump(
