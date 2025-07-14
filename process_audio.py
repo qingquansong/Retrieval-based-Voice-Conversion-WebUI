@@ -1724,7 +1724,7 @@ class AudioProcessor:
                 hp_model.post_process_threshold = 0.2
                 hp_model.batch_size = 64
                 
-                mdx_vocal_path = "/home/jobuser/test_outputs/intermediate_vocals/Diamond_Zhang_(Vocals).wav"
+                mdx_vocal_path = f"{output_base_dir}/intermediate_vocals/{base_name}_(Vocals).wav"
                 process_data['audio_file'] = mdx_vocal_path
                 process_data['export_path'] = intermediate_hp_vocals_dir
                 
